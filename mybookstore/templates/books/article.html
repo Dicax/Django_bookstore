@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}我要写评论{% endblock title %}
+{% block topfiles %}
+    <style>
+    #dian{
+        background-color: #83AF9B;
+        font-size: 30px;
+
+    }
+    #zan{
+        display: inline-block;
+
+        background-color: darksalmon;
+        font-size: 20px;
+    }
+    .entry{
+        width: 300px;
+        height: 100px;
+        border: #0a0a0a;
+        background-color: #8A9B0F;
+    }
+    #respond{
+        font-size: 20px;
+    }
+    #commentform{
+        margin-top: 20px;
+    }
+    </style>
+{% endblock topfiles %}
+{% block body %}
+    <div class="l_box f_l">
+
+        <div class="title">
+            <h2>
+                <a href="">{{ book.name }}</a>
+            </h2>
+            <img src="/static/images/{{ book.image }}">
+            <div class="postmeta">
+                <span class="postmeta_author">{{ book.desc | safe }}</span>
+                <span class="postmeta_time">{{ book.detail | safe}}</span>
+                <span id="dian" >点赞</span>
+                <span id="zan">105</span>
+            </div>
+            <div class="entry">
+                {{ comment.content }}
+            </div>
+
+            <div class="commentstitle">
+                <h3 id="comments">
+                    <span class="commentsnumber">only 10 comment</span>
+                    untill now
+                </h3>
+            </div>
+
+            <div id="commentform">
+                <h1 id="respond">Add your comment now</h1>
+
+                <form action="" id="commentform">
+                    {% csrf_token %}
+
+                    <p><textarea name="title" id="title" cols="20" rows="5" tabindex="4" class="message_input">
+                    </textarea></p>
+
+                    <p><textarea name="comment" id="comment" cols="40" rows="10" tabindex="4" class="message_input">
+                    </textarea></p>
+
+                    <p><input name="submit" type="submit" id="submit" tabindex="5" value="提交" class="button"/>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
+{#{% block myjs %}#}
+{#    <script src="{% static 'js/jquery-1.12.4.min.js' %}"></script>#}
+{#    <script>#}
+{#        $(function () {#}
+{#            $('#dian').click(function () {#}
+{#                $.get("{% url 'articles:love_add' article.id %}", function(callback){#}
+{#                    if (callback.a == 'ok') {#}
+{#                        value = parseInt($('#zan').text());#}
+{#                        value = value + 1;#}
+{#                        $('#zan').text(value);#}
+{#                         setTimeout(function () {#}
+{#                             window.location.href = '/';#}
+{#                         },5000)#}
+{##}
+{#                    }#}
+{#                })#}
+{#            })#}
+{#        })#}
+{#    </script>#}
+{#{% endblock %}#}
