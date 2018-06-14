@@ -21,7 +21,7 @@
 {% block header_con %}
 	<div class="header_con">
 		<div class="header">
-			<div class="welcome fl">欢迎来到尚硅谷书店!</div>
+			<div class="welcome fl">欢迎来到github书店!</div>
 			<div class="fr">
                 {% if request.session.islogin %}
 				<div class="login_btn fl">
@@ -51,7 +51,7 @@
 {# 网页顶部搜索框块 #}
 {% block search_bar %}
 	<div class="search_bar clearfix">
-		<a href="/" class="logo fl"><img src="{% static 'images/logo.png' %}" style="width: 160px; height: 53px;"></a>
+		<a href="/" class="logo fl"><img src="{% static 'images/logo02.png' %}" style="width: 160px; height: 53px;"></a>
 		<div class="search_con fl">
             <form method="get" action="/search/">
                 <input type="text" class="input_text fl" name="q" placeholder="搜索商品">
@@ -77,7 +77,7 @@
 			<span>|</span>
 			<a href="#">友情链接</a>
 		</div>
-		<p>CopyRight © 2016 北京尚硅谷信息技术有限公司 All Rights Reserved</p>
+		<p>CopyRight © 2016 北京github信息技术有限公司 All Rights Reserved</p>
 		<p>电话：010-****888    京ICP备*******8号</p>
 	</div>
     {# 获取用户购物车中商品的数目 #}

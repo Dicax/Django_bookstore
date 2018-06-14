@@ -1,0 +1,1449 @@
+[2018-06-13 20:14:04 +0800] [2870] [INFO] Starting gunicorn 19.8.1
+[2018-06-13 20:14:04 +0800] [2870] [INFO] Listening at: http://0.0.0.0:8000 (2870)
+[2018-06-13 20:14:04 +0800] [2870] [INFO] Using worker: sync
+[2018-06-13 20:14:04 +0800] [2873] [INFO] Booting worker with pid: 2873
+[2018-06-13 20:14:04 +0800] [2873] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+ImportError: No module named 'bookstore'
+[2018-06-13 20:14:04 +0800] [2873] [INFO] Worker exiting (pid: 2873)
+[2018-06-13 20:14:04 +0800] [2870] [INFO] Shutting down: Master
+[2018-06-13 20:14:04 +0800] [2870] [INFO] Reason: Worker failed to boot.
+[2018-06-13 20:30:48 +0800] [3116] [INFO] Starting gunicorn 19.8.1
+[2018-06-13 20:30:48 +0800] [3116] [INFO] Listening at: http://0.0.0.0:8000 (3116)
+[2018-06-13 20:30:48 +0800] [3116] [INFO] Using worker: sync
+[2018-06-13 20:30:48 +0800] [3119] [INFO] Booting worker with pid: 3119
+[2018-06-13 20:30:48 +0800] [3119] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+ImportError: No module named 'bookstore'
+[2018-06-13 20:30:48 +0800] [3119] [INFO] Worker exiting (pid: 3119)
+[2018-06-13 20:30:48 +0800] [3120] [INFO] Booting worker with pid: 3120
+[2018-06-13 20:30:48 +0800] [3120] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+ImportError: No module named 'bookstore'
+[2018-06-13 20:30:48 +0800] [3120] [INFO] Worker exiting (pid: 3120)
+[2018-06-13 20:30:49 +0800] [3121] [INFO] Booting worker with pid: 3121
+[2018-06-13 20:30:49 +0800] [3121] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/zuoyuan/python3/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+ImportError: No module named 'bookstore'
+[2018-06-13 20:30:49 +0800] [3121] [INFO] Worker exiting (pid: 3121)
+[2018-06-13 20:30:49 +0800] [3116] [INFO] Shutting down: Master
+[2018-06-13 20:30:49 +0800] [3116] [INFO] Reason: Worker failed to boot.
+[2018-06-13 20:33:32 +0800] [3173] [INFO] Starting gunicorn 19.8.1
+[2018-06-13 20:33:32 +0800] [3173] [INFO] Listening at: http://0.0.0.0:8000 (3173)
+[2018-06-13 20:33:32 +0800] [3173] [INFO] Using worker: sync
+[2018-06-13 20:33:32 +0800] [3176] [INFO] Booting worker with pid: 3176
+[2018-06-13 20:33:32 +0800] [3177] [INFO] Booting worker with pid: 3177
+[2018-06-13 20:33:32 +0800] [3179] [INFO] Booting worker with pid: 3179
+[2018-06-13 20:34:03 +0800] [3226] [INFO] Booting worker with pid: 3226
+[2018-06-13 20:34:03 +0800] [3227] [INFO] Booting worker with pid: 3227
+[2018-06-13 20:34:03 +0800] [3229] [INFO] Booting worker with pid: 3229
+[2018-06-13 20:34:03 +0800] [3173] [INFO] Handling signal: hup
+[2018-06-13 20:34:03 +0800] [3173] [INFO] Hang up: Master
+[2018-06-13 20:34:03 +0800] [3230] [INFO] Booting worker with pid: 3230
+[2018-06-13 20:34:03 +0800] [3231] [INFO] Booting worker with pid: 3231
+[2018-06-13 20:34:03 +0800] [3232] [INFO] Booting worker with pid: 3232
+[2018-06-13 12:34:06 +0000] [3226] [INFO] Worker exiting (pid: 3226)
+[2018-06-13 12:34:06 +0000] [3227] [INFO] Worker exiting (pid: 3227)
+[2018-06-13 12:34:06 +0000] [3229] [INFO] Worker exiting (pid: 3229)
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executedMiddleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executedBuilding prefix dict from the default dictionary ...
+Dumping model to file cache /tmp/jieba.cache
+Loading model cost 1.096 seconds.
+Prefix dict has been built succesfully.
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executedBuilding prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.822 seconds.
+Prefix dict has been built succesfully.
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.821 seconds.
+Prefix dict has been built succesfully.
+
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+4
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+addr11111===== 赵丽颖
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+order.status======== 1
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed
+AnotherMiddleware process_response executed
+Middleware executed
+Another Middleware executed

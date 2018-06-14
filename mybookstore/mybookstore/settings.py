@@ -27,7 +27,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 # Application definition
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'collect_static')
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
@@ -94,10 +94,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'bookstore',
-        'PASSWORD': '123456',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': 3306,
-        'USER': 'fenglei',
+        'USER': 'root',
     }
 }
 
