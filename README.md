@@ -8,7 +8,7 @@
 4， 用户中心
 5， 购物车
 6， 订单页面的
-7， `redis`缓存
+7， `redis` 缓存
 8， 评论功能
 9， 发送邮件
 10，登陆验证码
@@ -18,7 +18,7 @@
 14，过滤器功能
 15，django日志模块
 16，中间件的编写
-17, 使用`nginx+gunicorn+django`进行部署
-18, `docker`部署上线
-19, 守护进程`supervisor`
+17, 使用 `nginx+gunicorn+django` 进行部署
+18, `docker` 部署上线
+19, 守护进程 `supervisor` 
 ```
